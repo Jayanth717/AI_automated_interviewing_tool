@@ -1,13 +1,2 @@
 EMOTIONS
-Disgust
-Disgust
-Fear
 Neutral
-Neutral
-Neutral
-Neutral
-Neutral
-Neutral
-Neutral
-Neutral
-Disgust

@@ -1,12 +1,15 @@
-
 <div class="p-3 px-5" style="background:#3F51B5;margin-top:100px">
 
     <div class="container mt-5">
         <div class="row">
 
-          <div class="col">
-            <a href="{{url_for('home')}}">
-            <img src="\static\images\f-logo.png" class="img-fluid" alt="...">
+          <!-- ✅ Logo column fixed to align LEFT -->
+          <div class="col d-flex justify-content-start align-items-start">
+            <a href="{{url_for('home')}}" class="d-block" style="display:inline-block;">
+              <img src="\static\images\f-logo.png"
+                   class="img-fluid d-block me-auto"
+                   alt="Recruit Logo"
+                   style="max-width:300px;height:auto;margin-top:10px;margin-left:0 !important;">
             </a>
           </div>
 
@@ -34,6 +37,6 @@
     <hr style="height:2px;color:white;opacity:1">
     <span style="color:white">All right reserved</span>
 
-    <span class="mx-5"style="color:white;font-size:7px;position:absolute;right:0">Palash Bajpai ©</span>
+    <span class="mx-5" style="color:white;font-size:15px;position:absolute;right:0">Jayanth Kumar ©</span>
 
 </div>
