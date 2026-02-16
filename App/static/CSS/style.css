@@ -1,0 +1,181 @@
+/* ===== Global ===== */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page-bg {
+  background: url("../back.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ===== Hero (Top Section) ===== */
+.hero-row {
+  background: url("../back.jpg");
+  background-size: cover;
+}
+
+.brand-title {
+  color: #0078E7;
+  font-size: 100px;
+}
+
+.brand-subtitle {
+  color: #0078E7;
+  font-size: 45px;
+}
+
+.hero-text {
+  text-align: left;
+}
+
+.hero-illustration {
+  width: 100%;
+  height: auto;
+  max-width: 650px;
+}
+
+/* ===== Stats Bar ===== */
+.stats-bar {
+  height: 230px;
+  background: #002F5B;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+  font-size: 1.75rem;
+  padding: 0 20px;
+}
+
+.stats-item {
+  flex: 1;
+  padding: 40px 10px;
+}
+
+/* ===== ✅ Working Image Full Width Fix ===== */
+.working-banner {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.working-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ===== Info Card ===== */
+.info-card {
+  width: 65%;
+  background: white;
+  border: solid black 2px;
+  border-radius: 50px;
+  box-shadow: 7px 9px 14px 1px rgba(0,0,0,0.34);
+}
+
+.info-title {
+  color: #3F51B5;
+}
+
+.info-text {
+  text-align: justify;
+}
+
+/* ===== Start Section ===== */
+.start-section {
+  background: url("../images/startbg.png");
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.start-title {
+  font-size: 60px;
+}
+
+.start-btn {
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.start-btn-text {
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+/* ===== Why Recruit Cards ===== */
+.why-card {
+  border: 3px dashed #0078E7;
+  border-radius: 30px;
+  background: white;
+}
+
+.why-title {
+  color: #002F5B;
+}
+
+.why-list {
+  text-align: justify;
+}
+
+/* ===== Responsive Fixes ===== */
+@media (max-width: 992px) {
+  .brand-title {
+    font-size: 60px;
+  }
+
+  .brand-subtitle {
+    font-size: 32px;
+  }
+
+  .info-card {
+    width: 90%;
+  }
+
+  .stats-bar {
+    height: auto;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 1.4rem;
+  }
+
+  .stats-item {
+    padding: 18px 10px;
+  }
+}
+
+/* ===== Page Header Image (Audio/Text) ===== */
+.page-header-img {
+  width: 100%;
+  height: 150px;      
+  object-fit: cover;  
+  display: block;
+}
+
+.page-header-img-small {
+  height: 100px;      /* for smaller headers */
+}
+
+/* ===== ✅ Footer Logo (ONLY FIX) ===== */
+.footer-logo{
+  max-width: 180px;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+
+  /* ✅ force LEFT inside the column */
+  margin-left: 0 !important;
+  margin-right: auto !important;
+
+  /* keep your blend effect */
+  mix-blend-mode: screen;
+}
+
+.footer-logo:hover{
+  opacity: 1;
+}
